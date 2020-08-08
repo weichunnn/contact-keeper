@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config({ path: './config/config.env' });
 const colors = require('colors');
 
@@ -8,6 +9,7 @@ const app = express();
 
 // Middleware
 app.use(express.json({ extended: false }));
+app.use(cors());
 
 // Connect with Database
 connectDb();
