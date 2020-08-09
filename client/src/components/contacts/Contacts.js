@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import ContactItem from './ContactItem';
 import Spinner from '../layout/Spinner';
 import ContactContext from '../../context/contact/contactContext';
-import ContactState from '../../context/contact/ContextState';
 
 const Contacts = () => {
   const contactContext = useContext(ContactContext);
