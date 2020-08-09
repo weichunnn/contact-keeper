@@ -32,10 +32,10 @@ npm install
 
 ### Mongo connection setup
 
-Edit your /config/config.env file to include personalised configs
-mongoURI = ...
-jwtSecret = ... 
-NODE_ENV = production
+Edit your /config/config.env file to include personalised configs:
+* mongoURI = ...
+* jwtSecret = ... 
+* NODE_ENV = production
 
 ### Run Server
 
